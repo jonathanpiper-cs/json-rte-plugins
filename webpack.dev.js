@@ -19,7 +19,7 @@ module.exports = merge(common, {
             target: `/${pkg.output}`
         },
         headers: {
-            "Access-Control-Allow-Origin": "*"
+            "Access-Control-Allow-Origin": "https://rte-extension.contentstack.com"
         },
     },
 });
